@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Check Me</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css"
+          rel="stylesheet" type="text/css"/>
+
+    <link href="assets/css/semantic.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="login-page">
+
+
+    <div class="cont">
+
+        <div class="form sign-in ">
+            <h2 class="login-h2">Welcome , Sign In</h2>
+            <h2 class="pass-h2">Forget Password</h2>
+
+            <form  id="login-form" class="ui form  myform hieght-block " style="">
+
+                <div class="field">
+                    <label>E-mail</label>
+                    <input type="email" placeholder="joe@schmoe.com">
+                </div>
+
+                <div class="field">
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Your Password">
+                </div>
+
+                <button type="button" class="submit btn-forms">Sign In</button>
+
+                <a href="#" class="link-login forgot-pass">  Forgot password?</a>
+            </form>
+
+
+
+
+                <form  id="pass-form" class="ui form  myform  hieght-block">
+
+                    <div class="field">
+                        <label>E-mail</label>
+                        <input type="email" placeholder="joe@schmoe.com">
+                    </div>
+
+
+                    <button type="button" class="submit btn-forms">Send</button>
+
+                    <a href="#" class="link-login back-login">  Back to login</a>
+                </form>
+
+
+
+
+
+        </div>
+
+
+
+
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+                    <div class="logo-login"><img src="assets/images/logo-white.png"/></div>
+
+                    <h2>New here?</h2>
+                    <p>Sign up and discover great amount of new opportunities!</p>
+                </div>
+
+
+                <div class="img__text m--in">
+                    <div class="logo-login"><img src="assets/images/logo-white.png"/></div>
+                    <h2>One of us?</h2>
+                    <p>If you already has an account, just sign in. We've missed you!</p>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">Sign Up</span>
+                    <span class="m--in">Sign In</span>
+                </div>
+            </div>
+
+            <div class="form sign-up">
+                <h2>Welcome , Sign Up</h2>
+
+                <form class="ui form myform">
+                    <div class="field">
+                        <label>Name</label>
+                        <div class="two fields">
+                            <div class="field">
+                                <input type="text" name="shipping[first-name]" placeholder="First Name">
+                            </div>
+                            <div class="field">
+                                <input type="text" name="shipping[last-name]" placeholder="Last Name">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label>E-mail</label>
+                        <input type="email" placeholder="joe@schmoe.com">
+                    </div>
+
+                    <div class="field">
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter Your Password">
+                    </div>
+
+                    <div class="field">
+                        <label>Birthday</label>
+
+                        <div class="ui calendar" id="example2">
+                            <div class="ui input left icon">
+                                <i class="calendar icon"></i>
+                                <input type="text" placeholder="Date">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inline fields gender">
+                        <label class="lbl">Gender</label>
+                        <div class="two fields">
+                            <div class="field">
+                                <div class="ui radio checkbox">
+                                    <input type="radio" name="gender" checked="checked">
+                                    <label>Male</label>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui radio checkbox">
+                                    <input type="radio" name="gender">
+                                    <label>Female</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button type="button" class="submit btn-forms">Sign Up</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src='assets/js/jquery.min.js'></script>
+<script src='assets/js/jquery.mCustomScrollbar.js'></script>
+<script src='assets/js/semantic.min.js'></script>
+<script src='assets/js/main-js.js'></script>
+</body>
+</html>

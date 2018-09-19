@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Check Me</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+
+    <div class="main-top-header">
+        <div class="container">
+            <div class="top-header">
+
+                <div class="left-header">
+                    <div class="logo"><a href="#"> <img src="assets/images/logo.png"/> </a></div>
+                </div>
+
+                <div class="blck-search">
+                    <form action="" method="" role="search">
+                        <input name="search" type="text" placeholder="Search" class="text-search" autocomplete="off">
+                        <button type="submit" value="" class="btn-search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+
+
+                <div class="right-header">
+
+                    <div class="lang">
+                        <a href="#">
+                            <svg aria-hidden="true" data-prefix="fas" data-icon="globe-asia" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
+                                 class="svg-inline--fa fa-globe-asia fa-w-16 fa-5x">
+                                <path fill="currentColor"
+                                      d="M248 8C111.03 8 0 119.03 0 256s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm-11.34 240.23c-2.89 4.82-8.1 7.77-13.72 7.77h-.31c-4.24 0-8.31 1.69-11.31 4.69l-5.66 5.66c-3.12 3.12-3.12 8.19 0 11.31l5.66 5.66c3 3 4.69 7.07 4.69 11.31V304c0 8.84-7.16 16-16 16h-6.11c-6.06 0-11.6-3.42-14.31-8.85l-22.62-45.23c-2.44-4.88-8.95-5.94-12.81-2.08l-19.47 19.46c-3 3-7.07 4.69-11.31 4.69H50.81C49.12 277.55 48 266.92 48 256c0-110.28 89.72-200 200-200 21.51 0 42.2 3.51 61.63 9.82l-50.16 38.53c-5.11 3.41-4.63 11.06.86 13.81l10.83 5.41c5.42 2.71 8.84 8.25 8.84 14.31V216c0 4.42-3.58 8-8 8h-3.06c-3.03 0-5.8-1.71-7.15-4.42-1.56-3.12-5.96-3.29-7.76-.3l-17.37 28.95zM408 358.43c0 4.24-1.69 8.31-4.69 11.31l-9.57 9.57c-3 3-7.07 4.69-11.31 4.69h-15.16c-4.24 0-8.31-1.69-11.31-4.69l-13.01-13.01a26.767 26.767 0 0 0-25.42-7.04l-21.27 5.32c-1.27.32-2.57.48-3.88.48h-10.34c-4.24 0-8.31-1.69-11.31-4.69l-11.91-11.91a8.008 8.008 0 0 1-2.34-5.66v-10.2c0-3.27 1.99-6.21 5.03-7.43l39.34-15.74c1.98-.79 3.86-1.82 5.59-3.05l23.71-16.89a7.978 7.978 0 0 1 4.64-1.48h12.09c3.23 0 6.15 1.94 7.39 4.93l5.35 12.85a4 4 0 0 0 3.69 2.46h3.8c1.78 0 3.35-1.18 3.84-2.88l4.2-14.47c.5-1.71 2.06-2.88 3.84-2.88h6.06c2.21 0 4 1.79 4 4v12.93c0 2.12.84 4.16 2.34 5.66l11.91 11.91c3 3 4.69 7.07 4.69 11.31v24.6z"
+                                      class=""></path>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="notification">
+                        <a href="#">
+                            <span class="">
+                            <svg aria-hidden="true" data-prefix="fal" data-icon="bell" role="img"
+                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                 class="svg-inline--fa fa-bell fa-w-14 fa-9x">
+                                <path fill="currentColor"
+                                      d="M224 480c-17.66 0-32-14.38-32-32.03h-32c0 35.31 28.72 64.03 64 64.03s64-28.72 64-64.03h-32c0 17.65-14.34 32.03-32 32.03zm209.38-145.19c-27.96-26.62-49.34-54.48-49.34-148.91 0-79.59-63.39-144.5-144.04-152.35V16c0-8.84-7.16-16-16-16s-16 7.16-16 16v17.56C127.35 41.41 63.96 106.31 63.96 185.9c0 94.42-21.39 122.29-49.35 148.91-13.97 13.3-18.38 33.41-11.25 51.23C10.64 404.24 28.16 416 48 416h352c19.84 0 37.36-11.77 44.64-29.97 7.13-17.82 2.71-37.92-11.26-51.22zM400 384H48c-14.23 0-21.34-16.47-11.32-26.01 34.86-33.19 59.28-70.34 59.28-172.08C95.96 118.53 153.23 64 224 64c70.76 0 128.04 54.52 128.04 121.9 0 101.35 24.21 138.7 59.28 172.08C421.38 367.57 414.17 384 400 384z"
+                                      class=""></path>
+                            </svg>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="img-top">
+                        <a href="#">
+                            <img src="assets/images/img-top.jpg"/>
+                            <span class="name-user-top">  Mohmmed Nomen </span>
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="columns">
+
+
+            <div class="center-header">
+                <div class="block-user">
+                    <div class="data-user">
+                        <div class="user-name">Mohamed Nadeem</div>
+                        <div class="user-job">Graphic Designer</div>
+                        <div class="user-country">Al Riyadh, Saudi Arabia</div>
+                    </div>
+                    <div class="block-img-user">
+                        <div class="user-img"><img src="assets/images/img-user.jpg"/></div>
+                        <div class="icon-user"><img src="assets/images/icon-user.png"/></div>
+                        <div class="title-user-image">Person pills</div>
+                    </div>
+                    <div class="evaluation">
+                        <h2>Evaluation</h2>
+                        <!--star-rating-->
+                        <div class="star-rating" title="50%">
+                            <div class="back-stars">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+
+                                <div class="front-stars" style="width: 50%">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End star-rating-->
+
+                        <div class="evaluation-val">
+                            <div class="item-b">
+                                <div class="name-ch visits">Visits</div>
+                                <div class="item-ch">
+                                    <div class="item-nivel" data-nivel="60%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<section class="container main-content">
+
+    <!--Main Evaluation-->
+    <div class="main-evaluation">
+        <div class="content-left f-left">
+            <div class="cheeck-me-item">
+                <div class="item">
+                    <div class="progress">
+                        <svg id="svg1" class="progress-circle" width="200px" height="200px" stroke="url(#linearColors)"
+                             xmlns="http://www.w3.org/2000/svg" data-value="70">
+                            <linearGradient id="linearColors" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="5%" stop-color="#ff27bf"></stop>
+                                <stop offset="50%" stop-color="#cd18d3"></stop>
+                                <stop offset="100%" stop-color="#3f01ff"></stop>
+                            </linearGradient>
+                            <circle class="progress-circle-back" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                            <circle class="progress-circle-prog" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                        </svg>
+                        <div class="progress-text" data-progress="0">0%</div>
+                        <div class="name-checck">Religion</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="progress">
+                        <svg id="svg2" class="progress-circle" width="200px" height="200px" stroke="url(#linearColors2)"
+                             xmlns="http://www.w3.org/2000/svg" data-value="50">
+                            <linearGradient id="linearColors2" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="5%" stop-color="#ff439b"></stop>
+                                <stop offset="50%" stop-color="#ff676f"></stop>
+                                <stop offset="100%" stop-color="#ffb100"></stop>
+                            </linearGradient>
+                            <circle class="progress-circle-back" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                            <circle class="progress-circle-prog" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                        </svg>
+                        <div class="progress-text" data-progress="0">0%</div>
+                        <div class="name-checck">positive</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="progress">
+                        <svg id="svg3" class="progress-circle" width="200px" height="200px" stroke="url(#linearColors3)"
+                             xmlns="http://www.w3.org/2000/svg" data-value="50">
+                            <linearGradient id="linearColors3" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="5%" stop-color="#fc1aff"></stop>
+                                <stop offset="50%" stop-color="#cc4cff"></stop>
+                                <stop offset="100%" stop-color="#00d7ff"></stop>
+                            </linearGradient>
+                            <circle class="progress-circle-back" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                            <circle class="progress-circle-prog" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                        </svg>
+                        <div class="progress-text" data-progress="0">0%</div>
+                        <div class="name-checck">Moral</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="progress">
+                        <svg id="svg4" class="progress-circle" width="200px" height="200px" stroke="url(#linearColors)"
+                             xmlns="http://www.w3.org/2000/svg" data-value="50">
+                            <linearGradient id="linearColors" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="5%" stop-color="#0532fc"></stop>
+                                <stop offset="50%" stop-color="#00ffae"></stop>
+                                <stop offset="100%" stop-color="#f40410"></stop>
+                            </linearGradient>
+                            <circle class="progress-circle-back" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                            <circle class="progress-circle-prog" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                        </svg>
+                        <div class="progress-text" data-progress="0">0%</div>
+                        <div class="name-checck">Religion</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="progress">
+                        <svg id="svg5" class="progress-circle" width="200px" height="200px" stroke="url(#linearColors2)"
+                             xmlns="http://www.w3.org/2000/svg" data-value="80">
+                            <linearGradient id="linearColors2" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="5%" stop-color="#ff0000"></stop>
+                                <stop offset="50%" stop-color="#d204f2"></stop>
+                                <stop offset="100%" stop-color="#1809ea"></stop>
+                            </linearGradient>
+                            <circle class="progress-circle-back" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                            <circle class="progress-circle-prog" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                        </svg>
+                        <div class="progress-text" data-progress="0">0%</div>
+                        <div class="name-checck">positive</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="progress">
+                        <svg id="svg6" class="progress-circle" width="200px" height="200px" stroke="url(#linearColors3)"
+                             xmlns="http://www.w3.org/2000/svg" data-value="70">
+                            <linearGradient id="linearColors3" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="5%" stop-color="#0532fc"></stop>
+                                <stop offset="50%" stop-color="#00ffae"></stop>
+                                <stop offset="100%" stop-color="#f40410"></stop>
+                            </linearGradient>
+                            <circle class="progress-circle-back" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                            <circle class="progress-circle-prog" cx="80" cy="80" r="74" stroke-linecap="round"></circle>
+                        </svg>
+                        <div class="progress-text" data-progress="0">0%</div>
+                        <div class="name-checck">Moral</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-right f-right">
+
+            <div class="country-chartright">
+                <div class="title-block">
+                    <h2>countries Voting</h2>
+                </div>
+                <div class="item-b">
+                    <div class="name-ch">Yemen</div>
+                    <div class="item-ch">
+                        <div class="item-nivel" data-nivel="100%"></div>
+                    </div>
+                </div>
+                <div class="item-b">
+                    <div class="name-ch">saudi</div>
+                    <div class="item-ch">
+                        <div class="item-nivel" data-nivel="50%"></div>
+                    </div>
+                </div>
+                <div class="item-b">
+                    <div class="name-ch">Egypt</div>
+                    <div class="item-ch">
+                        <div class="item-nivel" data-nivel="70%"></div>
+                    </div>
+                </div>
+                <div class="item-b">
+                    <div class="name-ch">USA</div>
+                    <div class="item-ch">
+                        <div class="item-nivel" data-nivel="30%"></div>
+                    </div>
+                </div>
+                <div class="item-b">
+                    <div class="name-ch">Yemen</div>
+                    <div class="item-ch">
+                        <div class="item-nivel" data-nivel="60%"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="statistical">
+                <div class="title-block">
+                    <h2>statistical Impression</h2>
+                </div>
+                <div class="item-b">
+                    <div class="name-ch">Negative</div>
+                    <div class="item-ch">
+                        <div class="item-nivel" data-nivel="100%"></div>
+                    </div>
+                </div>
+                <div class="item-b">
+                    <div class="name-ch">positive</div>
+                    <div class="item-ch">
+                        <div class="item-nivel" data-nivel="50%"></div>
+                    </div>
+                </div>
+                <div class="item-b">
+                    <div class="name-ch">neutral</div>
+                    <div class="item-ch">
+                        <div class="item-nivel" data-nivel="70%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="clear_all"></div>
+    </div>
+    <!--End Main Evaluation-->
+
+    <div class="main-commit">
+        <div class="comments">
+            Comments
+        </div>
+
+        <!--Block Commit-->
+        <div class="block-commit  mCustomScrollbar" data-mcs-theme="dark">
+            <!--commit  item-->
+            <div class="commit-block-item">
+                <div class="commit-body">
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها .
+                </div>
+                <div class="commit-icon">
+                    <div class="img-commit">
+                        <img src="assets/images/img-top.jpg"/>
+                    </div>
+
+                    <div class="remove-commit icon-commit">
+                        <a href="#"> X </a>
+                    </div>
+                    <div class="heart icon-commit">
+                        <a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--commit  item-->
+            <div class="commit-block-item">
+                <div class="commit-body">
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها
+                </div>
+                <div class="commit-icon">
+                    <div class="img-commit">
+                        <img src="assets/images/img-top.jpg"/>
+                    </div>
+
+                    <div class="remove-commit icon-commit">
+                        <a href="#"> X </a>
+                    </div>
+                    <div class="heart icon-commit">
+                        <a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--commit  item-->
+            <div class="commit-block-item">
+                <div class="commit-body">
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها .
+                </div>
+                <div class="commit-icon">
+                    <div class="img-commit">
+                        <img src="assets/images/img-top.jpg"/>
+                    </div>
+
+                    <div class="remove-commit icon-commit">
+                        <a href="#"> X </a>
+                    </div>
+                    <div class="heart icon-commit">
+                        <a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--commit  item-->
+            <div class="commit-block-item">
+                <div class="commit-body">
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها .
+                </div>
+                <div class="commit-icon">
+                    <div class="img-commit">
+                        <img src="assets/images/img-top.jpg"/>
+                    </div>
+
+                    <div class="remove-commit icon-commit">
+                        <a href="#"> X </a>
+                    </div>
+                    <div class="heart icon-commit">
+                        <a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--commit  item-->
+            <div class="commit-block-item">
+                <div class="commit-body">
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها .
+                </div>
+                <div class="commit-icon">
+                    <div class="img-commit">
+                        <img src="assets/images/img-top.jpg"/>
+                    </div>
+
+                    <div class="remove-commit icon-commit">
+                        <a href="#"> X </a>
+                    </div>
+                    <div class="heart icon-commit">
+                        <a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--commit  item-->
+            <div class="commit-block-item">
+                <div class="commit-body">
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها .
+                </div>
+                <div class="commit-icon">
+                    <div class="img-commit">
+                        <img src="assets/images/img-top.jpg"/>
+                    </div>
+
+                    <div class="remove-commit icon-commit">
+                        <a href="#"> X </a>
+                    </div>
+                    <div class="heart icon-commit">
+                        <a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--commit  item-->
+            <div class="commit-block-item">
+                <div class="commit-body">
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها
+                </div>
+                <div class="commit-icon">
+                    <div class="img-commit">
+                        <img src="assets/images/img-top.jpg"/>
+                    </div>
+
+                    <div class="remove-commit icon-commit">
+                        <a href="#"> X </a>
+                    </div>
+                    <div class="heart icon-commit">
+                        <a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--commit  item-->
+            <div class="commit-block-item">
+                <div class="commit-body">
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها .
+                </div>
+                <div class="commit-icon">
+                    <div class="img-commit">
+                        <img src="assets/images/img-top.jpg"/>
+                    </div>
+
+                    <div class="remove-commit icon-commit">
+                        <a href="#"> X </a>
+                    </div>
+                    <div class="heart icon-commit">
+                        <a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--commit  item-->
+            <div class="commit-block-item">
+                <div class="commit-body">
+                    انسان جيد وحبوب لاكن مشكلته كثير الكلام ، حصل لي معه موقف وساعدني كثير ، يحب الناس تمدحة ويكره عصير
+                    البرتقال مدري ليش , مصمم رائع بس اسعاره شوي مبالغ فيها .
+                </div>
+                <div class="commit-icon">
+                    <div class="img-commit">
+                        <img src="assets/images/img-top.jpg"/>
+                    </div>
+
+                    <div class="remove-commit icon-commit">
+                        <a href="#"> X </a>
+                    </div>
+                    <div class="heart icon-commit">
+                        <a href="#"> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <!--Block Commit-->
+        <div class="clear_all"></div>
+
+        <div class="add-commit">
+            <div class="title-comment">Add comment</div>
+            <div class="block-add-commit">
+                <div class="img-user-commit">
+                    <img src="assets/images/img-top.jpg"/>
+                </div>
+                <div class="text-box">
+                    <textarea placeholder="Write a comment ..." class="text-fld-add-comment">  </textarea>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<footer>
+    All rights reserved © 2018 Check me
+</footer>
+
+<script src='assets/js/jquery.min.js'></script>
+<script src='assets/js/jquery.mCustomScrollbar.js'></script>
+<script src='assets/js/main-js.js'></script>
+</body>
+</html>
